@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-01: hsl(302, 90%, 45%);
+  --color-02: hsl(302, 63%, 38%);
+}
+
+body {
+  font-family: "Salsa", cursive;
+  background: linear-gradient(#bf1ff0, #a6118d);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#noButton {
+  position: absolute;
+  margin-left: -90px;
+}
+
+#yesButton {
+  margin-right: 190px;
+}
+
+#yesButton:hover {
+  background-color: rgb(131, 10, 123);
+}
+
+#yesButton:active {
+  background-color: rgb(101, 14, 95);
+  transform: translateY(4px);
+}
+
+.btn {
+  color: rgb(73, 1, 42);
+  background-color: #a40dd2;
+  margin-top: 25px;
+  padding: 10px 25px;
+  border: none;
+  font-family: inherit;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1 {
+  color: rgb(73, 1, 42);
+  font-size: 2rem;
+}

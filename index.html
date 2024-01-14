@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="dateMessage" class="message">Do you wanna go for a Date ?</h1>
+      <img
+        class="gif"
+        src="https://media0.giphy.com/media/ah0czfr6JbYlCqI2KS/giphy.gif?cid=ecf05e47v3wk8sx0squmn3zczy80jweveywtff8o22sj2r64&ep=v1_stickers_search&rid=giphy.gif&ct=s"
+        alt="gif"
+      />
+      <div class="btns">
+        <button class="btn" id="yesButton" onclick="changeMsg()">Yes</button>
+        <button
+          class="btn"
+          id="noButton"
+          onmouseover="moveButton()"
+          onclick="moveButton()"
+        >
+          No
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
