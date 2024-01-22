@@ -18,4 +18,4 @@ Hey guys! I have started 100 day 100 project design using #HTML #CSS #JavaScript
 * JavaScript
 
 # Author
--BY 
+-BY <a href="https://github.com/Rituraj27">Rituraj27</a>
